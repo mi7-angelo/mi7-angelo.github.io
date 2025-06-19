@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "port": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "python deploy.py"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -13,7 +14,8 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "vue-cli-ghpages": "^1.0.0"
   },
   "browserslist": [
     "> 1%",
