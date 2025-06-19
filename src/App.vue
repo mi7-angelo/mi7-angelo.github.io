@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="brand">
         <img src="@/assets/logo.png" alt="Logo" />
-        <span>Portfolio</span>
+        <span>Michel's Portfolio </span>
       </div>
 
       <ul class="nav-links">
